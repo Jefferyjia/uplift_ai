@@ -1,0 +1,16 @@
+# 数据文件不入库（体积大/含明细）
+data/*.csv
+data/*.parquet
+*.xlsx
+# 凭证绝不入库
+.env
+*.pem
+*credentials*
+*token*
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# 日志
+*.log
+pipeline.log
